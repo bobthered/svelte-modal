@@ -5,9 +5,11 @@
   // styling
   export let bg = "bg-primary-500 hover:bg-white";
   export let cursor = "cursor-pointer";
+  export let display = "inline-flex";
   export let duration = "duration-200";
   export let fontSize = "text-sm";
   export let fontWeight = "font-medium";
+  export let items = "items-center";
   export let outline = "focus:outline-none";
   export let padding = "py-4 px-10";
   export let rounded = "rounded";
@@ -18,9 +20,11 @@
   let classes = {
     bg,
     cursor,
+    display,
     duration,
     fontSize,
     fontWeight,
+    items,
     outline,
     padding,
     rounded,
