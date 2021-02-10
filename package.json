@@ -1,6 +1,6 @@
 {
   "name": "@bobthered/svelte-button",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Svelte component for buttons",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

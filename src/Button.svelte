@@ -33,7 +33,7 @@
     transition,
   };
 
-  $: clazz = Object.values(classes).join(" ");
+  $: clazz = [...Object.values(classes), $$props.class].join(" ");
 </script>
 
 {#if type === 'link'}

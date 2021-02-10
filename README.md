@@ -23,12 +23,13 @@ npm i -D @bobthered/svelte-button
 | Prop          | Default                           | Description                                                      |
 | ------------- | --------------------------------- | ---------------------------------------------------------------- |
 | bg            | bg-primary-500 hover:bg-white     | Set bg class(s)                                                  |
+| class         | _empty_                           | Add additional class(s)                                          |
 | cursor        | cursor-pointer                    | Set cursor class(s)                                              |
-| display   | inline-flex | Set display class(s)          |
+| display       | inline-flex                       | Set display class(s)                                             |
 | duration      | duration-200                      | Set duration class(s)                                            |
 | fontSize      | text-sm                           | Set font size class(s)                                           |
 | fontWeight    | font-medium                       | Set font weight class(s)                                         |
-| items | items-center | Set items class(s) |
+| items         | items-center                      | Set items class(s)                                               |
 | href          | _empty_                           | If "type" prop is set to "link" use this to set the link address |
 | outline       | focus:outline-none                | Set outline class(s)                                             |
 | padding       | py-4 px-10                        | Set padding class(s)                                             |
