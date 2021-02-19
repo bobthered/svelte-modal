@@ -1,7 +1,7 @@
 {
-  "name": "@bobthered/svelte-button",
-  "version": "1.0.2",
-  "description": "Svelte component for buttons",
+  "name": "@bobthered/svelte-card",
+  "version": "1.0.0",
+  "description": "Svelte component for cards",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "svelte": "src/index.js",
@@ -11,21 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bobthered/svelte-button.git"
+    "url": "git+https://github.com/bobthered/svelte-card.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bobthered/svelte-button/issues"
+    "url": "https://github.com/bobthered/svelte-card/issues"
   },
-  "homepage": "https://github.com/bobthered/svelte-button#readme",
+  "homepage": "https://github.com/bobthered/svelte-card#readme",
   "devDependencies": {
     "rollup": "^2.38.5",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^7.1.0",
     "svelte": "^3.32.2"
   },
-  "rollupInput": "src/Button.svelte",
-  "rollupOutputName": "Button"
+  "rollupInput": "src/Card.svelte",
+  "rollupOutputName": "Card"
 }

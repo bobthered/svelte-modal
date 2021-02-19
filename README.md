@@ -1,18 +1,18 @@
-# @bobthered/svelte-button
+# @bobthered/svelte-card
 
 Svelte component for creating buttons with tailwindcss
 
 ## Installation
 
 ```
-npm i -D @bobthered/svelte-button
+npm i -D @bobthered/svelte-card
 ```
 
 ## Basic Usage
 
 ```
 <script>
-  import Button from '@bobthered/svelte-button'
+  import Button from '@bobthered/svelte-card'
 </script>
 
 <Button>Click Here</Button>
