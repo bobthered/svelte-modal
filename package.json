@@ -1,7 +1,7 @@
 {
-  "name": "@bobthered/svelte-input",
+  "name": "@bobthered/svelte-modal",
   "version": "1.0.0",
-  "description": "Svelte component for inputs",
+  "description": "Svelte component for modals",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "svelte": "src/index.js",
@@ -11,21 +11,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bobthered/svelte-input.git"
+    "url": "git+https://github.com/bobthered/svelte-modal.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bobthered/svelte-input/issues"
+    "url": "https://github.com/bobthered/svelte-modal/issues"
   },
-  "homepage": "https://github.com/bobthered/svelte-input#readme",
+  "homepage": "https://github.com/bobthered/svelte-modal#readme",
   "devDependencies": {
     "rollup": "^2.38.5",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^7.1.0",
     "svelte": "^3.32.2"
   },
-  "rollupInput": "src/Input.svelte",
-  "rollupOutputName": "Input"
+  "rollupInput": "src/Modal.svelte",
+  "rollupOutputName": "Modal",
+  "dependencies": {
+    "@bobthered/svelte-heroicons": "^1.0.8"
+  }
 }
