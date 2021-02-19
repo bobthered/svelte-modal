@@ -1,7 +1,7 @@
 {
-  "name": "@bobthered/svelte-card",
-  "version": "1.0.1",
-  "description": "Svelte component for cards",
+  "name": "@bobthered/svelte-input",
+  "version": "1.0.0",
+  "description": "Svelte component for inputs",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "svelte": "src/index.js",
@@ -11,21 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bobthered/svelte-card.git"
+    "url": "git+https://github.com/bobthered/svelte-input.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bobthered/svelte-card/issues"
+    "url": "https://github.com/bobthered/svelte-input/issues"
   },
-  "homepage": "https://github.com/bobthered/svelte-card#readme",
+  "homepage": "https://github.com/bobthered/svelte-input#readme",
   "devDependencies": {
     "rollup": "^2.38.5",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^7.1.0",
     "svelte": "^3.32.2"
   },
-  "rollupInput": "src/Card.svelte",
-  "rollupOutputName": "Card"
+  "rollupInput": "src/Input.svelte",
+  "rollupOutputName": "Input"
 }

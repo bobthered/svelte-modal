@@ -1,32 +1,42 @@
-# @bobthered/svelte-card
+# @bobthered/svelte-input
 
-Svelte component for creating cards with tailwindcss
+Svelte component for creating inputs with tailwindcss
 
 ## Installation
 
 ```
-npm i -D @bobthered/svelte-card
+npm i -D @bobthered/svelte-input
 ```
 
 ## Basic Usage
 
 ```
 <script>
-  import Card from '@bobthered/svelte-card'
+  import Input from '@bobthered/svelte-input'
 </script>
 
-<Card>Card Body</Card>
+<Input name="name" value="John Doe" />
 ```
 
-## Available Props
+## Attribute Props
 
-| Prop          | Default                  | Description                 |
-| ------------- | ------------------------ | --------------------------- |
-| bg            | `bg-white`               | Set bg class(s)             |
-| border        | `border border-gray-300` | Set border class(s)         |
-| class         | `""`                     | Add additional class(s)     |
-| display       | `flex`                   | Set display class(s)        |
-| flexDirection | `flex-col`               | Set flex direction class(s) |
-| padding       | `p-8`                    | Set padding class(s)        |
-| rounded       | `rounded`                | Set rounded class(s)        |
-| shadow        | `shadow`                 | Set shadow class(s)         |
+| Prop        | Default | Description               |
+| ----------- | ------- | ------------------------- |
+| name        | `""`    | Set name attribute        |
+| placeholder | `""`    | Set placeholder attribute |
+| type        | `text`  | Set type attribute        |
+| value       | `""`    | Set value attribute       |
+
+## Class Props
+
+| Prop       | Default                                                                      | Description             |
+| ---------- | ---------------------------------------------------------------------------- | ----------------------- |
+| bg         | `bg-transparent`                                                             | Set bg class(s)         |
+| border     | `border-gray-300 border-b hover:border-primary-500 focus:border-primary-500` | Set border class(s)     |
+| class      | `""`                                                                         | Add additional class(s) |
+| duration   | `duration-200`                                                               | Set duration class(s)   |
+| outline    | `focus:outline-none`                                                         | Set outline class(s)    |
+| padding    | `py-2`                                                                       | Set padding class(s)    |
+| textAlign  | `text-left`                                                                  | Set text align class(s) |
+| transition | `transition`                                                                 | Set transition class(s) |
+| width      | `width`                                                                      | Set width class(s)      |
